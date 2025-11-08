@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "dev-pulse:build:production"
+              "buildTarget": "gw-post:build:production"
             },
             "development": {
-              "buildTarget": "dev-pulse:build:development"
+              "buildTarget": "gw-post:build:development"
             }
           },
           "defaultConfiguration": "development"
